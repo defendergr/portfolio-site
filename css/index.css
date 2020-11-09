@@ -1,0 +1,109 @@
+@import url('fonts/NotoSans-Bold.ttf');
+
+body{
+	background-color:#176fa6;
+}
+
+div{
+	border:0px solid;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+    display:block ;
+	vertical-align:top;
+	height:100%;
+}
+
+section{
+	display:table;
+	width:100%;
+	margin-bottom:100px;
+}	
+
+.main-image{
+	background-image:url('../images/main.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	width:100%;
+	height:200px;
+	padding-top:100px;
+	text-align:center;
+	color:#ffffff;
+	text-shadow:2px 2px #000;
+}
+
+.details{
+     display:table-cell;
+	 width:40%;
+}
+
+.about{
+	display:table-cell;
+	width:55%;
+	color:#0C1D45;
+}
+
+.profile-pic{
+	display:table-cell;
+	padding-right:20px;
+}
+
+.button:hover{
+	background-color:#E98B43;
+}
+
+.profile-info{
+	display:table-cell;
+	color:#E98B43;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 800;
+}
+
+.button a,a:visited,a:active{
+	color:#1E3064;
+}
+
+.button{
+	display:inline-block;
+	text-decoration:none;
+	border-radius:50px;
+	padding:12px;
+	text-align:center;
+	background-color:silver;
+}
+
+.basic-studies{
+	display:table-cell;
+	width:65%;
+}
+
+.sec-studies{
+	display:table-cell;
+	width:35%;
+}
+
+.footer{
+	display:table;
+	width:100%;
+}
+
+.contact{
+	display:table-cell;
+	width:70%;
+}
+
+.sosial{
+	display:table-cell;
+	width:30%;
+}
+
+.noline{
+	text-decoration:none;
+}
+
+.myfont{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 800;
+}
